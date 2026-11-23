@@ -1,0 +1,14 @@
+[
+  {"number": 1, "title": "Two Sum", "slug": "two-sum", "difficulty": "Easy", "tags": ["array", "hash-table"]},
+  {"number": 2, "title": "Add Two Numbers", "slug": "add-two-numbers", "difficulty": "Medium", "tags": ["linked-list", "math"]},
+  {"number": 58, "title": "Length of Last Word", "slug": "length-of-last-word", "difficulty": "Easy", "tags": ["string"]},
+  {"number": 125, "title": "Valid Palindrome", "slug": "valid-palindrome", "difficulty": "Easy", "tags": ["two-pointers", "string"]},
+  {"number": 206, "title": "Reverse Linked List", "slug": "reverse-linked-list", "difficulty": "Easy", "tags": ["linked-list"]},
+  {"number": 242, "title": "Valid Anagram", "slug": "valid-anagram", "difficulty": "Easy", "tags": ["hash-table", "string", "sorting"]},
+  {"number": 303, "title": "Range Sum Query - Immutable", "slug": "range-sum-query-immutable", "difficulty": "Easy", "tags": ["array", "design", "prefix-sum"]},
+  {"number": 387, "title": "First Unique Character in a String", "slug": "first-unique-character-in-a-string", "difficulty": "Easy", "tags": ["hash-table", "string", "counting"]},
+  {"number": 724, "title": "Find Pivot Index", "slug": "find-pivot-index", "difficulty": "Easy", "tags": ["array", "prefix-sum"]},
+  {"number": 1413, "title": "Minimum Value to Get Positive Step by Step Sum", "slug": "minimum-value-to-get-positive-step-by-step-sum", "difficulty": "Easy", "tags": ["array", "prefix-sum"]},
+  {"number": 1446, "title": "Consecutive Characters", "slug": "consecutive-characters", "difficulty": "Easy", "tags": ["string"]},
+  {"number": 1614, "title": "Maximum Nesting Depth of the Parentheses", "slug": "maximum-nesting-depth-of-the-parentheses", "difficulty": "Easy", "tags": ["string", "stack"]}
+]

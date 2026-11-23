@@ -1,0 +1,20 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.md$
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: check-json
+      - id: check-yaml
+      - id: check-merge-conflict
+  - repo: local
+    hooks:
+      - id: build-index
+        name: regenerate README stats / INDEX.md / TOPICS.md / solution headers
+        entry: python tools/scripts/build_index.py
+        language: system
+        pass_filenames: false
+        files: ^(README\.md|cpp/|python/|tools/(data|scripts)/|docs/notes/)
